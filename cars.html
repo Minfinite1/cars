@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="ras.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Cars Form</title>
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <main>
+            <h1>Cars Form</h1>
+            <p>Hey Car Lovers! Please Help Us By Filling In The Form Below:</p>
+            <form>
+                <label for="name">Name <input placeholder="Enter Your Name" type="text" id="name" name="name-label" required></label>
+                <label for="email">Email <input placeholder="Enter Your Email" type="email" id="email" name="email-label" required></label>
+                <label for="age">Age <input placeholder="Enter Your Age" type="number" id="age" name="age-label" required></label>
+                <p>Gender:</p>
+                <label for="male"><input class="inline" id="male" type="radio" name="gender-label" value="male" checked required> Male</label>
+                <label for="female"><input class="inline" for="female" type="radio" name="gender-label" value="female" required> Female</label>
+                <p>What's Your Favorite Make?</p>
+                <select>
+                    <option value="" disabled selected>Please Select An Option</option>
+                    <option value="1">Benz</option>
+                    <option value="2">Jeep</option>
+                    <option value="3">Chevrolet</option>
+                    <option value="4">BMW</option>
+                    <option value="5">Porsche</option>
+                    <option value="6">Lincoln</option>
+                    <option value="7">Cadillac</option>
+                    <option value="8">Toyota</option>
+                    <option value="9">Kia</option>
+                    <option value="10">Nissan</option>
+                </select>
+                <p>What's Your Favorite Mode Of Transport:</p>
+                <label for="plane"><input class="inline" id="plane" type="checkbox" value="plane" name="Transport"> Plane</label>
+                <label for="boat"><input class="inline" id="boat" type="checkbox" value="boat" name="Transport"> Boat</label>
+                <label for="car"><input class="inline" id="car" type="checkbox" value="car" name="Transport"> Car</label>
+                <label for="train"><input class="inline" id="train" type="checkbox" value="train" name="Transport"> Train</label>
+                <p>Any Additional Comments?</p>
+                <textarea placeholder="Additional Comments..."></textarea>
+                <input value="submit" type="submit">
+            </form>
+        </main>
+        <footer>
+            <p><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-product-landing-page-project">Check Out Our Project</a></p>
+            <p>123 Cars Drive NE</p>
+        </footer>
+    </body>
+</html>
